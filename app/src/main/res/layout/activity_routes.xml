@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Flight Route"
+        android:textSize="22sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Origin airport (e.g. JNB)"/>
+
+    <EditText
+        android:id="@+id/editDest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination airport (e.g. CPT)"/>
+
+    <EditText
+        android:id="@+id/editTargetPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target price (optional)"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnAddRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Add Route"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
